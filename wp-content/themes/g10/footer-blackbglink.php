@@ -13,7 +13,7 @@
 
 	<footer id="colophon" class="site-footer">
 		<!-- Start Footer Area -->
-        <div class="footer-area footer-style-two">
+        <div class="footer-area footer-style-two bg-black">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-6">
