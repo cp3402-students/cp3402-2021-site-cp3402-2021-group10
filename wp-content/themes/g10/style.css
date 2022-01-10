@@ -482,10 +482,10 @@ hr {
 	margin-bottom: 1.5em;
 }
 
-ul,
+/* ul,
 ol {
 	margin: 0 0 1.5em 3em;
-}
+} */
 
 ul {
 	list-style: disc;
@@ -695,6 +695,7 @@ textarea {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	color:black;
 }
 
 /* Small menu. */
@@ -967,3 +968,4 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
