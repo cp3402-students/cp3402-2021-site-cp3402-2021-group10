@@ -28,7 +28,6 @@
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/owl.carousel.min.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/owl.theme.default.min.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>style.css">
 
 		<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/assets/img/favicon.png">
 	
@@ -53,50 +52,49 @@
 
 		<nav id="site-navigation" class="main-navigation">
 			
-			<!-- Start Navbar Area -->
-            <div class="navbar-area navbar-style-two">
-            <div class="g10-responsive-nav">
-                <div class="container">
-                    <div class="g10-responsive-menu">
-                        <div class="logo">
-                            <?php the_custom_logo(); ?>
+            <!-- Start Navbar Area -->
+            <div class="navbar-area">
+                <div class="g10-responsive-nav">
+                    <div class="container">
+                        <div class="g10-responsive-menu">
+                            <div class="logo">
+                                <?php the_custom_logo(); ?>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="g10-nav">
-                <div class="container">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <?php the_custom_logo(); ?>
-                        <div class="collapse navbar-collapse mean-menu">
-                            <ul class="navbar-nav">
-                                <li class="nav-item"><a href="<?php echo get_home_url();?>" class="nav-link active">Home</a>
-                                </li>
-                                <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">Product</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="<?php echo get_home_url();?>/how-it-works">How It Works</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">About</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="<?php echo get_home_url();?>/about-us">About Us</a></li>
-                                        <li><a href="<?php echo get_home_url();?>/pricing">Pricing Plan</a></li>
-                                        <li><a href="<?php echo get_home_url();?>/faq">FAQ</a></li>
-                                        <li><a href="<?php echo get_home_url();?>/privacy-policy">Privacy Policy</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item"><a href="<?php echo get_home_url();?>/contact-us" class="nav-link">Contacts</a></li>
-                            </ul>
-                            <div class="others-option">
-                                <a href="<?php echo get_home_url();?>/contact-us" class="default-btn">Get Started</a>
+                <div class="g10-nav">
+                    <div class="container">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <?php echo the_custom_logo(); ?>
+                            <div class="collapse navbar-collapse mean-menu">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item"><a href="<?php echo get_home_url();?>" class="nav-link active">Home</a>
+                                    </li>
+                                    <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">Product</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="<?php echo get_home_url();?>/how-it-works">How It Works</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">About</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="<?php echo get_home_url();?>/about-us">About Us</a></li>
+                                            <li><a href="<?php echo get_home_url();?>/pricing">Pricing Plan</a></li>
+                                            <li><a href="<?php echo get_home_url();?>/faq">FAQ</a></li>
+                                            <li><a href="<?php echo get_home_url();?>/privacy-policy">Privacy Policy</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a href="<?php echo get_home_url();?>/contact-us" class="nav-link">Contacts</a></li>
+                                </ul>
+                                <div class="others-option">
+                                    <a href="<?php echo get_home_url();?>/contact-us" class="default-btn">Get Started</a>
+                                </div>
                             </div>
-                        </div>
-                    </nav>
+                        </nav>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- End Navbar Area -->
+            <!-- End Navbar Area -->
 
-        <!-- End Navbar Area -->
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
