@@ -30,7 +30,7 @@ To meet our goals and expectation, we made two versions of our theme.
  
  
 
-Use the `BLANK_README.md` to get started.
+Use the `Installation.md` to get started.
 
 
 ### Built With
