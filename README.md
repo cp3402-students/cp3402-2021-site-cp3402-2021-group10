@@ -20,16 +20,15 @@
 <!-- Goal of The Project -->
 ## Goal of The Project
 
-![Home Page](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-group10/blob/main/wp-content/themes/G10-Static/screenshot.png)
+This project aims to make a Custom Theme that both beginners and veterans of WordPress can use. The topic we have chosen is Mobile Application. Design-wise, we have decided to go with a uniform and Morden minimalistic clean look. It is made to be universally used for a broad range of apps while requiring minimal modifications to meet their wants and needs.
 
-Goal or something.
+To meet our goals and expectation, we made two versions of our theme.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+ The first version (G10-Static) can be easily installed simply by dragging and dropping our theme to the upload theme section of your WordPress page, and users can use static templates we have included in our theme to get their site up and running within seconds.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+ The second version (G10-Dynamic) requires a bit of knowledge in Database to get it up and run. The difference between this and the previous version is that this is dynamic, meaning all content can be edited via the WordPress Admin panel. The data will be saved in the XML file for you to export and use via the WordPress Export Feature.
+ 
+ 
 
 Use the `BLANK_README.md` to get started.
 
