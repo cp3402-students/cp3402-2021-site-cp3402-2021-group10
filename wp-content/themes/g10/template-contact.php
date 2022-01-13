@@ -30,33 +30,33 @@ get_header('two');
         <div class="contact-area ptb-100">
             <div class="container">
                 <div class="section-title">
-                    <h2>Have Questions?</h2>
-                    <p>If you have any inquiries about G10, feel free to drop us a message here, we will do our best to get to you within 1 Working Day.</p>
+                    <h2><?php  the_field('cf_title'); ?></h2>
+                    <p><?php  the_field('cf_description'); ?></p>
                 </div>
                 <div class="contact-form">
                     <form id="contactForm">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="form-group">
-                                    <input type="text" name="name" class="form-control" id="name" required data-error="Please enter your name" placeholder="Please enter your Name">
+                                    <input type="text" name="name" class="form-control" id="name" required data-error="Please enter your name" placeholder="Name">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="form-group">
-                                    <input type="email" name="email" class="form-control" id="email" required data-error="Please enter your email" placeholder="Please enter your Email">
+                                    <input type="email" name="email" class="form-control" id="email" required data-error="Please enter your email" placeholder="Email">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="form-group">
-                                    <input type="text" name="phone_number" class="form-control" id="phone_number" required data-error="Please enter your phone number" placeholder="Please enter your Phone Number">
+                                    <input type="text" name="phone_number" class="form-control" id="phone_number" required data-error="Please enter your phone number" placeholder="Phone number">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="form-group">
-                                    <input type="text" name="msg_subject" class="form-control" id="msg_subject" placeholder="Enter your subject" required data-error="Please enter your Subject">
+                                    <input type="text" name="msg_subject" class="form-control" id="msg_subject" placeholder="Subject" required data-error="Please enter your subject subject">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@ get_header('two');
                 </div>
             </div>
             <div class="maps">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53665.58443803727!2d103.80976167078084!3d1.345383757670559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1767b42b8ec9%3A0x400f7acaedaa420!2sSingapore!5e0!3m2!1sen!2ssg!4v1641903815415!5m2!1sen!2ssg"></iframe>
+                <iframe src="<?php the_field('map_url'); ?>"></iframe>
             </div>
         </div>
         <!-- End Contact Area -->
@@ -85,14 +85,18 @@ get_header('two');
         <div class="contact-info-area pb-100">
             <div class="container">
                 <div class="contact-info-inner">
-                    <h2>Have any urgent question in mind please call or mail us</h2>
+                    <h2><?php the_field('contact_text'); ?></h2>
                     <div class="row justify-content-center">
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="single-contact-info-box">
                                 <div class="icon bg1">
                                     <i class="ri-customer-service-2-line"></i>
                                 </div>
-                                <h3><a href="tel:(+65) 1234 5678">(+65) 1234 5678</a></h3>
+                                <?php $rows=get_field('contact_phone'); 
+                                if($rows) {foreach($rows as $row){
+                                ?>
+                                <h3><a href="tel:<?php echo $row['phone_no']; ?>"><?php echo $row['phone_no']; ?></a></h3>
+                                <?php }} ?>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
@@ -100,7 +104,11 @@ get_header('two');
                                 <div class="icon">
                                     <i class="ri-earth-line"></i>
                                 </div>
-                                <h3><a href="mailto:G10_Project@gmail.com">G10_Project@gmail.com</a></h3>
+                                <?php $rows=get_field('contact_email'); 
+                                if($rows) {foreach($rows as $row){
+                                ?>
+                                <h3><a href="mailto:<?php echo $row['email_address']; ?>"><?php echo $row['email_address']; ?></a></h3>
+                                <?php }} ?>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
@@ -108,7 +116,7 @@ get_header('two');
                                 <div class="icon bg2">
                                     <i class="ri-map-pin-line"></i>
                                 </div>
-                                <h3>123 G10 Street, S123456, Singapore</h3>
+                                <h3><?php the_field('contact_address'); ?></h3>
                             </div>
                         </div>
                     </div>
@@ -125,4 +133,4 @@ get_header('two');
         <!-- End Contact Info Area -->
 
 
-<?php get_footer('blackbglink'); ?>
+<?php get_footer(); ?>
