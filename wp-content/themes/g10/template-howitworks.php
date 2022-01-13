@@ -10,7 +10,7 @@ get_header('two');
                     <h2>How It Works</h2>
                     <ul>
                         <li><a href="<?php echo get_home_url();?>">Home</a></li>
-                        <li>Getting Started with G10</li>
+                        <li>How It Works</li>
                     </ul>
                 </div>
             </div>
@@ -29,96 +29,30 @@ get_header('two');
         <!-- Start How It Works Area -->
         <div class="how-it-works-area ptb-100">
             <div class="container">
+                <?php $rows=get_field('hws_steps');
+                $n=0;
+                if($rows) {foreach($rows as $row){
+                    $n=$n+1;
+                ?>
                 <div class="how-it-works-content">
-                    <div class="number">1</div>
+                    <div class="number"><?php echo $n; ?></div>
                     <div class="row m-0">
                         <div class="col-lg-3 col-md-12 p-0">
                             <div class="box">
-                                <h3>Step 1</h3>
-                                <span>Create a G10 Account</span>
+                                <h3>Step <?php echo $n; ?></h3>
+                                <span><?php echo $row['step_name']; ?></span>
                             </div>
                         </div>
                         <div class="col-lg-9 col-md-12 p-0">
                             <div class="content">
-                                <p>When you first download G10, it will bring you to a Sign In page, if you don't have an account with us, you can simply just press the "Resigster Now" button and make one with your Email and Phone Number. It's as simple as that!</p>
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/how-it-works/create-account.jpg" alt="create-account">
+                                <p><?php echo $row['hws_description']; ?></p>
+                                <img src="<?php echo $row['hws_image']; ?>" alt="create-account">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="how-it-works-content">
-                    <div class="number">2</div>
-                    <div class="row m-0">
-                        <div class="col-lg-3 col-md-12 p-0">
-                            <div class="box">
-                                <h3>Step 2</h3>
-                                <span>Select a Stock</span>
-                            </div>
-                        </div>
-                        <div class="col-lg-9 col-md-12 p-0">
-                            <div class="content">
-                                <p>Choose any stock you would like to buy from our huge selections of companies.</p>
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/how-it-works/select-coin.jpg" alt="select-coin">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="how-it-works-content">
-                    <div class="number">3</div>
-                    <div class="row m-0">
-                        <div class="col-lg-3 col-md-12 p-0">
-                            <div class="box">
-                                <h3>Step 3</h3>
-                                <span>Select Your Bank Account or Credit Card</span>
-                            </div>
-                        </div>
-                        <div class="col-lg-9 col-md-12 p-0">
-                            <div class="content">
-                                <p><strong>G10</strong> accepts the following payment methods:</p>
-                                <ul>
-                                    <li>Credit Card: <strong>Visa</strong>, <strong>MasterCard</strong>, <strong>Discover</strong>, <strong>American Express</strong>, <strong>JCB</strong>, <strong>Visa Electron</strong>. The total will be charged to your card when the order is shipped.</li>
-                                    <li><strong>G10</strong> features a Fast Checkout option, allowing you to securely save your credit card details so that you don't have to re-enter them for future purchases.</li>
-                                    <li>PayPal: Shop easily online without having to enter your credit card details on the website.Your account will be charged once the order is completed. To register for a PayPal account, visit the website <a href="#" target="_blank">paypal.com.</a></li>
-                                </ul>
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/how-it-works/select-payment.jpg" alt="select-payment">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="how-it-works-content">
-                    <div class="number">4</div>
-                    <div class="row m-0">
-                        <div class="col-lg-3 col-md-12 p-0">
-                            <div class="box">
-                                <h3>Step 4</h3>
-                                <span>Convert to the Currency you like</span>
-                            </div>
-                        </div>
-                        <div class="col-lg-9 col-md-12 p-0">
-                            <div class="content">
-                                <p>Based on which stock you choose, the price would be listed in their local currency. G10 supports all major currency exchanges internally, so there is no hassle for you.</p>
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/how-it-works/payment-method.jpg" alt="payment-method">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="how-it-works-content">
-                    <div class="number">5</div>
-                    <div class="row m-0">
-                        <div class="col-lg-3 col-md-12 p-0">
-                            <div class="box">
-                                <h3>Step 5</h3>
-                                <span>Confirm and Check Your Order</span>
-                            </div>
-                        </div>
-                        <div class="col-lg-9 col-md-12 p-0">
-                            <div class="content">
-                                <p>A confirmation screen and an email will notify you when you have successfully brought a stock.</p>
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/how-it-works/confirm-order.jpg" alt="confirm-order">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <?php }} ?>
+                
             </div>
         </div>
         <!-- End How It Works Area -->
@@ -130,15 +64,16 @@ get_header('two');
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-md-12">
                             <div class="app-download-content">
-                                <span class="sub-title">DOWNLOAD APP</span>
-                                <h2>Let's Get Your Free Copy From Apple and Play Store</h2>
+                                <span class="sub-title"><?php the_field('da_title'); ?></span>
+                                <h2><?php the_field('da_subtitle'); ?></h2>
+                                <p><?php the_field('da_description'); ?></p>
                                 <div class="btn-box">
-                                    <a href="#" class="playstore-btn" target="_blank">
+                                    <a href="<?php the_field('google_play_button_url'); ?>" class="playstore-btn" target="_blank">
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/play-store.png" alt="image">
                                         Get It On
                                         <span>Google Play</span>
                                     </a>
-                                    <a href="#" class="applestore-btn" target="_blank">
+                                    <a href="<?php the_field('apple_store_button_url'); ?>" class="applestore-btn" target="_blank">
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/apple-store.png" alt="image">
                                         Download on the
                                         <span>Apple Store</span>
@@ -148,7 +83,7 @@ get_header('two');
                         </div>
                         <div class="col-lg-6 col-md-12">
                             <div class="app-download-image" data-aos="fade-up">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/app/app-img4.png" alt="app-img">
+                                <img src="<?php the_field('da_image'); ?>" alt="app-img">
                             </div>
                         </div>
                     </div>
