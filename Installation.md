@@ -4,12 +4,14 @@ Step 1: Download [this repository](https://github.com/cp3402-students/cp3402-202
 Step 2: Go to cp3402-2021-site-cp3402-2021-group10/wp-content/themes/ <br><br>
 Step 3: ZIP the G10-Static Folder <br><br>
 Step 4: Go to your WordPress Site > Dashboard > Appearance > Theme > Upload the G10-Static.zip <br><br>
-Step 5: Activate the theme <br>
+Step 5: Activate the theme <br><br>
+Step 6: Go to Dashboard > Appearance > Customize > Site Identity > Upload a Logo of your choosing<br><br>
+Step 7: Under Site Identity, uncheck "Display Site Title and Tagline<br><br>
 >At the point, the Header and Footer should appear on your Home Page <br>
 <br>
 <br>
-Step 6: Go to your Dashboard > Pages > Add New Pages > Give the page any title you like <br><br>
-Step 7: On the right there is a Page Tab, go to Template section and choose the one you want to use then press Publish <br><br>
+Step 8: Go to your Dashboard > Pages > Add New Pages > Give the page any title you like <br><br>
+Step 9: On the right there is a Page Tab, go to Template section and choose the one you want to use then press Publish <br><br>
 
 
 >Go to the page you just published and it will look exactly the same as our Live Site
