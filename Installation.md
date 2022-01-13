@@ -21,7 +21,7 @@ Step 1: Download [this repository](https://github.com/RandomStudentA/CP3402-A2-G
 Step 2: Go to CP3402-A2-Group-11-Full-Website/Final Ver/fang-main/ <br><br>
 Step 3: Replace all of the contents in your current/new WordPress site's public_html with those mentioned in Step 2 <br><br>
 Step 4: Import this [sql file](https://github.com/RandomStudentA/CP3402-A2-Group-11-Full-Website/tree/main/Final%20Ver) via your phpMyAdmin <br><br>
-Step 5: Go to your WordPress Site > Dashboard > APpearance > Theme > Active G10-Dynamic
+Step 5: Go to your WordPress Site > Dashboard > Appearance > Theme > Active G10-Dynamic<br><br>
 Step 6: Go to Plugins > Installed Plugins > Active the Plugins<br><br>
 Step 7: Go to Dashboard > Pages > Delete the auto-generated Sample Page and Privacy Policy Page then Empty Trash<br><br>
 Step 8: Go to Settings > Permalink and select "Post Name" as URL Structure <br><br>
