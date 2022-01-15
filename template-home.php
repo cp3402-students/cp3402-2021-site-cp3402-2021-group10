@@ -73,7 +73,7 @@ get_header();
                                 
                             </ul>
                             <div class="btn-box">
-                                <a href="<?php the_field('home3_button'); ?>" class="default-btn">Start Free Trial1111111</a>
+                                <a href="<?php the_field('home3_button'); ?>" class="default-btn">Start Free Trial</a>
                             </div>
                         </div>
                     </div>
