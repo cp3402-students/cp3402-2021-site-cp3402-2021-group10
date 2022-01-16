@@ -28,6 +28,7 @@ Step 6: Go to Plugins > Installed Plugins > Active the Plugins<br><br>
 Step 7: Go to Dashboard > Pages > Delete the auto-generated Sample Page and Privacy Policy Page then Empty Trash<br><br>
 Step 8: Go to Settings > Permalink and select "Post Name" as URL Structure <br><br>
 Step 9: Import this [xml file](https://github.com/RandomStudentA/CP3402-A2-Group-11-Full-Website/tree/main/Final%20Ver) via WordPress Import Function<br><br>
+check the box of import
 Step 10: Go to Dashboard > Appearance > Customize > Site Identity > Upload a Logo of your choosing<br><br>
 Step 11: Under Site Identity, uncheck "Display Site Title and Tagline<br><br>
 Step 12: Go to Dashboard > Appearance > Customize > Homepage Settings > Choose A static page Radio Buttonbr><br><br>
