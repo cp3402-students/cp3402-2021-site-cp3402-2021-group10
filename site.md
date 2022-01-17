@@ -13,14 +13,14 @@ Plugin Name | Plugin Description | Plugin Link
 **Advanced Custom Fields Pro** | ACF PRO includes extra fields & features to better develop websites including PHP Blocks, Repeatable Fields, Page Building tools, Media Galleries and Custom Options Pages. | [https://www.advancedcustomfields.com/pro/](https://www.advancedcustomfields.com/pro/)
 <br>
 
-## Changing the Logo & Site Title
+## Changing Logo & Site Title
 1. In the WordPress admin panel select **Appearance > Customize > Site Identity** from the left navigation sidebar.
 2. Click **Select logo** and upload the logo you wish to use for the website, Title can be changed as well.
 3. Click **Publish** to save and publish your changes.
 <br>
 
 
-## Modifcation of Web Content
+## Modification of Web Content
 1. In the WordPress admin panel select **Pages > Your Page of Choosing > Edit**.
 2. **All of the page content (SlideShows, Video, Pictures, Sections, Words, Etc)** are there, you can freely replace, change, add or make any modifcation as you like.
 3. Click **publish** to save and publish your changes.
