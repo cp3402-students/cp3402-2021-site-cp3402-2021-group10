@@ -44,8 +44,8 @@ This Custom Theme is built from a starter theme from [Underscores](https://under
 
 ### Plugins
 These plugins are included in the repo for G10-Dynamic Installation. G10-static does not require any plugins.
-* [Advanced Custom Fields](https://www.advancedcustomfields.com/)**(G10-Dynamic Only)**
-* [Advanced Custom Fields Pro](https://www.advancedcustomfields.com/pro/)**(G10-Dynamic Only)**
+* [Advanced Custom Fields](https://www.advancedcustomfields.com/) **(G10-Dynamic Only)**
+* [Advanced Custom Fields Pro](https://www.advancedcustomfields.com/pro/) **(G10-Dynamic Only)**
 <br>
 
 <!-- GETTING STARTED -->
