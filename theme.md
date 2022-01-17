@@ -1,9 +1,16 @@
 # Maintaining the theme
 The following `theme.md` file contains instructions on how a contributor might continue to maintain the theme.
 
-We use White & #404040. 
+
 ___
 <br>
+## Colour pallet
+The G10-Dynamic theme is created with a morden minialistic goal in mind, so we only uses 2 primary colors, the rest of it is based on the Picture/Icon used. 
+| Colour name  | Hex Value |
+| ------------- | ------------- |
+| White  | #FFFFFF |
+| Dark Grey  | #404040 |
+
 
 ## Features
 G10-Dynamic includes most features for content creation. -Refer to [Advanced Custom Field](https://www.advancedcustomfields.com/resources/) for a more detailed list and description of our features. 
