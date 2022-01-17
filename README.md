@@ -52,8 +52,13 @@ Use the `Installation.md` to get started. <br>
 <!-- GETTING STARTED -->
 ## Getting Started 
 
-G10-Static takes < 5 Minutes to setup, this version only you to have basic access prvileges such as Importing Theme and Add New Page <br>
-G10-Dynamic takes 10 - 15 Minutes to setup, inaddition to the previous requirement, this version also requires you have access to wp-content folder along with SQL Datatbase access.
+G10-Static takes < 5 Minutes to set up. <br>
+- This version only requires basic access privileges such as Importing Theme and Add New Page. 
+
+<br>
+
+G10-Dynamic takes 10 - 15 Minutes to set up. <br>
+- In addition to the previous requirements, this version also requires you have access to the wp-content folder along with SQL Database access.
 
 <br>
 
