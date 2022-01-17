@@ -8,9 +8,9 @@
   <p align="center">
     All you need to know about our Custom Theme!
     <br /><br />
-    <a href="https://www.g10live.com/">View Live Site</a>
+    <a href="https://www.g10live.com/">Live Site</a>
     ·
-    <a href="http://g10staging.com/">View Staging Site</a>
+    <a href="http://g10staging.com/">Staging Site</a>
     ·
     <a href="mailto:fanglue.zhao@my.jcu.edu.au">Request Help</a>
   </p>
