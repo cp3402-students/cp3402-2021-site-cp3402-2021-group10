@@ -37,16 +37,12 @@ Use the `Installation.md` to get started. <br>
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 * [PHP](https://nextjs.org/)
 * [WordPress](https://reactjs.org/)
 
 <br>
 
 ### Plugins
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [Advanced Custom Fields](https://www.advancedcustomfields.com/)
 * [Advanced Custom Fields Pro](https://www.advancedcustomfields.com/pro/)
@@ -75,11 +71,11 @@ For installation instructions can be found at: [Installation.md](https://github.
 
 
 
-
+<br>
 
 
 <!-- CONTACT -->
-## Contact
+## Contacts
 
 Axel Zhao - fanglue.zhao@my.jcu.edu.au
 
