@@ -71,7 +71,7 @@ G10-Dynamic takes 10 - 15 Minutes to setup, inaddition to the previous requireme
 
 ### Installation
 
-For installation instructions can be found at:
+For installation instructions can be found at: <br>
 [Installation.md](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-group10/blob/main/Installation.md)
 
 
