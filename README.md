@@ -40,11 +40,17 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 * [PHP](https://nextjs.org/)
 * [WordPress](https://reactjs.org/)
+
+<br>
+
+### Plugins
+
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+
 * [Custom Form](https://vuejs.org/)
 * [Advanced Custom Form](https://vuejs.org/)
 
 <br>
-
 
 <!-- GETTING STARTED -->
 ## Getting Started 
