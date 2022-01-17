@@ -22,7 +22,7 @@ Plugin Name | Plugin Description | Plugin Link
 
 ## Modifcation of Web Content
 1. In the WordPress admin panel select **Pages > Your Page of Choosing > Edit**.
-2. **All** of the page content (SlideShows, Video, Picture, Section, Words, Etc) are there, you can freely replace, change, add or make any modifcation as you like.
+2. **All of the page content (SlideShows, Video, Pictures, Sections, Words, Etc)** are there, you can freely replace, change, add or make any modifcation as you like.
 3. Click **publish** to save and publish your changes.
 <br>
 
