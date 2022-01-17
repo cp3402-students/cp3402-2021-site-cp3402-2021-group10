@@ -4,6 +4,7 @@ The following `theme.md` file contains instructions on how a contributor might c
 
 ___
 <br>
+
 ## Colour pallet
 The G10-Dynamic theme is created with a morden minialistic goal in mind, so we only uses 2 primary colors, the rest of it is based on the Picture/Icon used. 
 | Colour name  | Hex Value |
