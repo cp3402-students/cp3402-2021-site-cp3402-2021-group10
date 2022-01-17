@@ -48,8 +48,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [Custom Form](https://vuejs.org/)
-* [Advanced Custom Form](https://vuejs.org/)
+* [Advanced Custom Fields](https://www.advancedcustomfields.com/)
+* [Advanced Custom Fields Pro](https://www.advancedcustomfields.com/pro/)
 
 <br>
 
@@ -59,7 +59,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 G10-Static takes < 5 Minutes to setup, this version only you to have basic access prvileges such as Importing Theme and Add New Page
 G10-Dynamic takes 10 - 15 Minutes to setup, inaddition to the previous requirement, this version also requires you have access to wp-content folder along with SQL Datatbase access.
 
-<br><br>
+<br>
 
 ### Prerequisites
 
@@ -71,8 +71,7 @@ G10-Dynamic takes 10 - 15 Minutes to setup, inaddition to the previous requireme
 
 ### Installation
 
-For installation instructions can be found at: <br>
-[Installation.md](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-group10/blob/main/Installation.md)
+For installation instructions can be found at: [Installation.md](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-group10/blob/main/Installation.md)
 
 
 
