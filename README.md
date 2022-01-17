@@ -32,7 +32,7 @@ To meet our goals and expectation, we made two versions of our theme.
 
 Use the `Installation.md` to get started. <br>
 
-
+<br>
 ### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
@@ -54,6 +54,7 @@ Both version of the theme is does not require any setup or modifcations, as long
 
 * WordPress
 <br>
+
 ### Installation
 
 For installation instructions please visit:
