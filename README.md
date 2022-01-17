@@ -16,6 +16,7 @@
   </p>
 </div>
 
+<br>
 
 <!-- Goal of The Project -->
 ## Goal of The Project
@@ -55,14 +56,17 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started 
 
-Both theme versions do not require any setup or modifications, as long as you have WordPress installed locally or on a server.
+G10-Static takes < 5 Minutes to setup, this version only you to have basic access prvileges such as Importing Theme and Add New Page
+G10-Dynamic takes 10 - 15 Minutes to setup, inaddition to the previous requirement, this version also requires you have access to wp-content folder along with SQL Datatbase access.
+
 <br><br>
 
 ### Prerequisites
 
 * WordPress
-* Access to SQL Database
 * Admin Privileges on WordPress Site
+* Access to wp-content folder (G10-Dynamic Only)
+* Access to SQL Database (G10-Dynamic Only)
 <br>
 
 ### Installation
