@@ -30,7 +30,7 @@ To meet our goals and expectation, we made two versions of our theme.
  
  
 
-Use the `Installation.md` to get started.
+Use the `Installation.md` to get started. <br>
 
 
 ### Built With
@@ -42,24 +42,23 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [Custom Form](https://vuejs.org/)
 * [Custom Form](https://vuejs.org/)
 
-
-
+<br>
 
 
 <!-- GETTING STARTED -->
 ## Getting Started 
 
 Both version of the theme is does not require any setup or modifcations, as long as you have WordPress installed locally or on a server.
-
+<br>
 ### Prerequisites
 
 * WordPress
-
+<br>
 ### Installation
 
 For installation instructions please visit:
 [Installation.md](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-group10/blob/main/Installation.md)
-   ```
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
