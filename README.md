@@ -36,16 +36,16 @@ Use the `Installation.md` to get started. <br>
 <br>
 
 ### Built With
-
+This Custom Theme is built from a starter theme from [Underscores](https://underscores.me/). To change page content in G10-Static, you must edit the PHP files. To modify page content in G10-Dynamic, you can do it through WordPress using its built-in edit page function.
 * [PHP](https://nextjs.org/)
 * [WordPress](https://reactjs.org/)
 
 <br>
 
 ### Plugins
-
-* [Advanced Custom Fields](https://www.advancedcustomfields.com/)
-* [Advanced Custom Fields Pro](https://www.advancedcustomfields.com/pro/)
+These plugins are included in the repo for G10-Dynamic Installation. G10-static does not require any plugins.
+* [Advanced Custom Fields](https://www.advancedcustomfields.com/)(G10-Dynamic Only)
+* [Advanced Custom Fields Pro](https://www.advancedcustomfields.com/pro/)(G10-Dynamic Only)
 
 <br>
 
@@ -53,12 +53,12 @@ Use the `Installation.md` to get started. <br>
 ## Getting Started 
 
 G10-Static takes < 5 Minutes to set up. <br>
--- This version only requires basic access privileges such as Importing Theme and Add New Page. 
+[ This version only requires basic access privileges such as Importing Theme and Add New Page. ]
 
 <br>
 
 G10-Dynamic takes 10 - 15 Minutes to set up. <br>
--- In addition to the previous requirements, this version also requires you have access to the wp-content folder along with SQL Database access.
+[ In addition to the previous requirements, this version also requires you have access to the wp-content folder along with SQL Database access. ]
 
 <br>
 
@@ -72,9 +72,7 @@ G10-Dynamic takes 10 - 15 Minutes to set up. <br>
 
 ### Installation
 
-For installation instructions can be found at: [Installation.md](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-group10/blob/main/Installation.md)
-
-
+Installation instructions can be found at: [Installation.md](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-group10/blob/main/Installation.md)
 
 <br>
 
