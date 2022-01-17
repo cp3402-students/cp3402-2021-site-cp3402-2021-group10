@@ -41,7 +41,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [PHP](https://nextjs.org/)
 * [WordPress](https://reactjs.org/)
 * [Custom Form](https://vuejs.org/)
-* [Custom Form](https://vuejs.org/)
+* [Advanced Custom Form](https://vuejs.org/)
 
 <br>
 
@@ -49,17 +49,19 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started 
 
-Both version of the theme is does not require any setup or modifcations, as long as you have WordPress installed locally or on a server.
+Both theme versions do not require any setup or modifications, as long as you have WordPress installed locally or on a server.
 <br><br>
 
 ### Prerequisites
 
 * WordPress
+* Access to SQL Database
+* Admin Privileges on WordPress Site
 <br>
 
 ### Installation
 
-For installation instructions please visit:
+For installation instructions can be found at:
 [Installation.md](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-group10/blob/main/Installation.md)
 
 
