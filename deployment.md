@@ -4,42 +4,39 @@ The following `deployment.md` file provides a brief description of the developme
 ___
 ## Required software
 The following software is required for the theme development and deployment workflow.
-- [Local](https://localwp.com/)
-- [GitHub Desktop](https://desktop.github.com/)
+- [VVV](https://varyingvagrantvagrants.org/)
+- [Gitbash](https://git-scm.com/)
+- [Vagrant](https://www.vagrantup.com/)
+- [Virtual Box](https://www.virtualbox.org/)
 
 ## Local development environment setup
 ### Installing Local (WordPress development tool)
 Follow the steps below to set up your local development environment on your Windows, Mac, or Linux operating system.
-1. Goto [the Local WP website](https://localwp.com/)
-2. Click **download** and select your operating system from the dropdown.
-3. Follow the installation process once the download has completed.
-4. When the installation is complete, open local and navigate to **File > Create new site**
-5. Give the site a name and click **continue**.
-6. Select **custom** for environment selection, enter the attributes in the table below and click **continue**.
+1.First up is to download and install VirtualBox which is the virtual machine.
+2.Next download and install Vagrant.
+3.Go to [VVV getting started page](https://varyingvagrantvagrants.org/docs/en-US/installation/) and follow the instructions to install VVV of your operating system.
+4. Installation will take around 30minutesand you can access your [VVV site](https://vvv.test.com) after a green teddy bear appears at the end of installation.
 
-Attribute  | Value
-------------- | -------------
-**PHP Version**  | `PHP 7.3.5`
-**Web Server**  | `Nginx 1.16.0`
-**Database** | `MySQL 8.0.16`
-
-7. Set a username, password and email address for the WordPress installation and click **continue**.
-8. After clicking continue, your local WordPress site should startup, verify that your installation is working correctly by clicking the **open site** button in the dashboard.
-
-### Adding Jazzy GitHub repository to local WordPress installation
-Follow the steps below to add the Jazzy GitHub theme repository to your WordPress theme folder.
+### Adding G10 GitHub repository to local WordPress installation
+Follow the steps below to add the G10 GitHub theme repository to your WordPress theme folder.
 1. Open your file explorer and navigate to your Local WordPress root directory. From there navigate to the themes folder `/wp-content/themes/`.
-2. Copy the directory path of the themes folder.
-3. Open GitHub Desktop and clone the Jazzy GitHub repository into the themes folder.
+2.In the themes folder, create a new folder and name it whatever you like.
+3. Go inside the folder and then right click and choose git bash here
+4. Git bash terminal will appear and then you can type in the following commands to pull the theme from our [Github repository](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-group10).
+git init
+git add .
+git remote add origin https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-group10.git
+git checkout -b G10-Dynamic
+git pull origin G10-Dynamic
 4. Open your WordPress admin panel and navigate to **Appearance > Themes**.
-5. Select the installed theme.
+5. Select the G10-Dynamic theme
 6. After selecting the theme, verify that it is working properly by viewing the WordPress websites home page.
 
 ## Project management
-A [Trello Kanban board](https://trello.com/b/euLtVLL8/web-project-dev) has been created to track the progress of several project actions. Use this Kanban board to post details, actions and ideas. Move the Kanban cards around and assign them to contributors as needed.
+A [Trello board](https://trello.com/invite/b/sOGpE2zM/bf357bb64a6533dd8aebb13b321b3faf/content-managment-group-10) has been created to track the progress of several project actions. Use this Trello board to post details, actions and ideas. Move the cards around and assign them to contributors as needed.
 
 ## Version control
-GitHub is used to collaborate and track changes to the theme code. To begin working on a new feature make a branch based on the staging branch. When the feature is complete merge that feature branch with the staging branch for testing. If testing passes merge the staging branch with the main branch.
+GitHub is used to collaborate and track changes to the theme code. To begin working on a new feature, make a branch based on the staging branch. When the feature is complete merge that feature branch with the staging branch for testing. If testing passes, merge the staging branch with the main branch.
 
 
 Branch Name | Description
@@ -54,3 +51,4 @@ Web Address | Name
 ------------- | -------------
 **Production website** | [https://production.callumdennien.com](https://production.callumdennien.com)
 **Staging website** | [https://staging.callumdennien.com](https://staging.callumdennien.com)
+
