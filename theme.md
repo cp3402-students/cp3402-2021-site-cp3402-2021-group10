@@ -44,9 +44,13 @@ There is 2 versions of the G10-Dynamic theme header.
 For Home Page and About Us, you can go to the `/G10-Dynamic/header.php` file and edit it with any IDE
 For the rest of the pages, you can go to the `/G10-Dynamic/header-two.php` file and edit it with any IDE
 
+<br>
+
 ### Editing the theme footer
 There is only 1 footer used for the G10-Dynamic theme
 you can go to the `/G10-Dynamic/footer.php` file and edit it with any IDE
+
+<br>
 
 ### Editing theme content
 All content are stored in the WordPress XML file, to edit it, simply edit the website via Dashbaord > Pages > Edit, then export the XML file. 
