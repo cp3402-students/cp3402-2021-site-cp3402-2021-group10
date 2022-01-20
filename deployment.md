@@ -5,7 +5,7 @@ ___
 
 <br>
 
-## Required software
+## Required SoftwareS
 The following software is required for the theme development and deployment workflow.
 - [VVV](https://varyingvagrantvagrants.org/)
 - [Gith](https://git-scm.com/)
@@ -14,7 +14,7 @@ The following software is required for the theme development and deployment work
 
 <br>
 
-## Local development environment setup
+## Local Development Environment Setup
 ### Prerequisites
 Follow the steps below to set up your local development environment on your Windows, Mac, or Linux operating system.
 <br>
