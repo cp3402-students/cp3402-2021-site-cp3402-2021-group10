@@ -12,20 +12,26 @@ The G10-Dynamic theme is created with a morden minialistic goal in mind, so we o
 | White  | #FFFFFF |
 | Dark Grey  | #404040 |
 
+<br>
+
 
 ## Features
-G10-Dynamic includes most features for content creation. -Refer to [Advanced Custom Field](https://www.advancedcustomfields.com/resources/) for a more detailed list and description of our features. 
+G10-Dynamic includes most features for content creation. Refer to [Advanced Custom Field](https://www.advancedcustomfields.com/resources/) for a more detailed list and description of our features. 
 
 Feature | Description 
 --------|-------------
-Niche Input Types |  Ranger Picker, Date Time Picker, Color Picker, Etc.
-Gallary | An `MP3` audio file can be added to an interactive media player below the media slideshow.
-Taxonomy | Taxonomy field allows the selection of one or more taxonomy terms, useful for things like Blogs.
+Niche Inputs |  Ranger Picker, Date Time Picker, Color Picker and other niche input types are avaliable.
+Media Player | An video link can be added to an interactive media player, a thumnail can be inserted as well.
+Gallary | Any number of image file can be added to an interactive Gallary. 
+Taxonomy | The taxonomy field allows the selection of one or more taxonomy terms for catergoraization.
 User Field | This field type is useful for creating relationships between data objects. It stores its value as the WP_User ID, and can return the full WP_User data on retrieval.
-Font Awesome | Icons can be easily added to components of the website by using the required Font Awesome plugin.
+
+<br>
 
 ## Editing the CSS
 If you wish to make changes to the theme CSS you can do so by editing the `/G10-Dynamic/style.css` file.
+
+<br>
 
 ### Editing the theme header
 There is 2 versions of the G10-Dynamic theme header.
