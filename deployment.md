@@ -35,15 +35,16 @@ You can access your your VVV Site via this [URL](https://vvv.test.com)
 ### Adding G10 GitHub repository to local WordPress installation
 Follow the steps below to add the G10 GitHub theme repository to your WordPress theme folder.
 <br>
+
+1. Navigate to your Local WordPress root directory, from there navigate to the themes folder `/wp-content/themes/`
+
+2. In the themes folder, create a new folder and name it whatever you like
+
+3. While in the folder right click and choose 'git bash here'
+
+4. Git bash terminal will appear, then you can type in the following commands to pull the theme from our [Github repository](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-group10)
+
 ```
-1. Open your file explorer and navigate to your Local WordPress root directory. From there navigate to the themes folder `/wp-content/themes/`.
-
-2.In the themes folder, create a new folder and name it whatever you like.
-
-3. Go inside the folder and then right click and choose git bash here.
-
-4. Git bash terminal will appear and then you can type in the following commands to pull the theme from our [Github repository](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-group10).
-
 git init
 
 git add .
@@ -53,6 +54,7 @@ git remote add origin https://github.com/cp3402-students/cp3402-2021-site-cp3402
 git checkout -b G10-Dynamic
 
 git pull origin G10-Dynamic
+```
 
 4. Open your WordPress admin panel and navigate to **Appearance > Themes**.
 
