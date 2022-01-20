@@ -54,7 +54,8 @@ git checkout -b G10-Dynamic
 
 git pull origin G10-Dynamic
 
-To push changes:
+
+**To push changes**
 
 git add .
 
