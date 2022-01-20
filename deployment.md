@@ -58,7 +58,11 @@ git pull origin G10-Dynamic
 to push changes, simply:
 
 ```
-a
+git add .
+
+git commit -m "Your comment"
+
+git push -u origin G10-Dynamic
 ```
 
 For Quiries on the installation of G10-Dynamic Please refer to Installation.MD
