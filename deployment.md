@@ -3,7 +3,6 @@ The following `deployment.md` file provides a brief description of the developme
 
 ___
 
-<br>
 
 ## Required Softwares
 The following software is required for the theme development and deployment workflow.
@@ -31,7 +30,7 @@ You can access your your VVV Site via this [URL](https://vvv.test.com)
 
 <br>
 
-### Connecting G10-Dynamic GitHub Repository to Local Enviorment
+## Connecting G10-Dynamic GitHub Repository to Local Enviorment
 Follow the steps below to add the  G10-Dynamic GitHub theme repository to your Local WordPress.
 <br>
 
@@ -53,18 +52,21 @@ git remote add origin https://github.com/cp3402-students/cp3402-2021-site-cp3402
 git checkout -b G10-Dynamic
 
 git pull origin G10-Dynamic
+```
 
+<br>
 
-To push changes:
-
+>To Push Changes:
+```
 git add .
 
 git commit -m "Your comment"
 
 git push -u origin G10-Dynamic
 ```
+<br>
 
-### Connecting G10-Dynamic GitHub Repository to Server
+## Connecting G10-Dynamic GitHub Repository to Server
 Follow the steps below to connect the G10-Dynamic GitHub theme repository to a server.
 <br>
 
@@ -80,7 +82,10 @@ ssh username@server_domain.com
 
 git remote add origin git@github.com:cp3402-students/cp3402-2021-site-cp3402-2021-group10.git
 ```
-5. To pull
+
+<br>
+
+>To Pull Changes:
 
 ```
 cd public_html/wp-content/themes/G10-Dynamic
@@ -89,7 +94,10 @@ eval `ssh-agent` && ssh-add ~/.ssh/RSA_My_GitHub
 
 git pull
 ```
-6. To push
+
+<br>
+
+>To Push Changes:
 
 ```
 git add .
@@ -114,28 +122,42 @@ Branch Name | Description
 **Header** | This branch is used for Header development and is stable.<br>
 **Footer** | This branch is used for Footer development and is stable.<br>
 
+<br>
+
 ## Deployment & Web Hosting
-Two websites that automatically track the commit history (when a change is pushed to main or staging, the website will automatically update) for the main and staging branches have been deployed on Amazon Web Services. Both of the websites are deployed on the same EC2 instance with the use of Apache Virtual Hosts. Refer to [site.md](site.md) for automatic deployment setup.<br>
+Both websites have SSH connection enabled, changes are depolyed via Git through command lines.<br>
 
 
 Web Address | Name
 ------------- | -------------
 **Production/Live website** | [https://g10staging.com/](https://g10staging.com/)
 **Staging website** | [https:/www.g10live.com/](https:/www.g10live.com/)
+
+<br>
+
 ## Project Management
 Project management is done based on [Scrum and XP from the Trenches -2nd Edition](https://www.infoq.com/minibooks/scrum-xp-from-the-trenches-2/)
 
-A [Trello board](https://trello.com/invite/b/sOGpE2zM/bf357bb64a6533dd8aebb13b321b3faf/content-managment-group-10) has been created to track the progress of the project stories, details of stories, scrum poker, task assignment, deadlines as well as any comments made by the team. 
-<br>
+> [Trello board](https://trello.com/invite/b/sOGpE2zM/bf357bb64a6533dd8aebb13b321b3faf/content-managment-group-10) has been created to track the progress of the project stories, details of stories, scrum poker, task assignment, deadlines as well as any comments made by the team. 
 
-[Miro Board](https://miro.com/welcomeonboard/djRTTEhtUUFVdmVrN29TdGRzWUtCYUd2NDJDWmg5NTdSYng5QUt2V3ZDNjVqd1BJTDRKUjJqRmIycUlmcURLT3wzMDc0NDU3MzUzNjQwNjA1Mjk4?invite_link_id=662373346887) has also been created to record our daily standup meetings, weekly retrospective as well as burndown/velocty charts.
+> [Miro Board](https://miro.com/welcomeonboard/djRTTEhtUUFVdmVrN29TdGRzWUtCYUd2NDJDWmg5NTdSYng5QUt2V3ZDNjVqd1BJTDRKUjJqRmIycUlmcURLT3wzMDc0NDU3MzUzNjQwNjA1Mjk4?invite_link_id=662373346887) has also been created to record our daily standup meetings, weekly retrospective as well as burndown/velocty charts.
 
-Project Management follows the following order:
-1. Sprint Planning to plan on what to do the next sprint as well moving stories into produect backlog in Trello
-2. Daily Stand-Up to allow team memebers to be update to date on what each member has done, been working on and if they are facing any problems.
+>Project Management follows the following order:
+```
+1. Sprint Planning 
+   - Plan on what to do the next sprint as well moving stories into produect backlog in Trello
+   
+2. Daily Stand-Up 
+   - Team memebers to be update to date on what each member has done, been working on and if they are facing any problems
+   
 3. Theme is developed locally via VVV
-4. Theme is updated to GitHub via Git
-5. Theme is tested on Staging Server
-6. Theme is uploaded to Live Server
-7. Trello Board is updated when the story is complete.
 
+4. Theme is updated to GitHub via Git
+
+5. Updated Theme is pulled to Staging Server via SSH & Git
+
+6. Theme is uploaded to Live Server
+
+7. Trello Board is updated when the story is completed.
+
+```
