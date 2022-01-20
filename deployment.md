@@ -26,19 +26,19 @@ Follow the steps below to set up your local development environment on your Wind
 
 <br>
 
-You can access your your VVV Site via this [URL](https://vvv.test.com)
+You can access your VVV Site via this [URL](https://vvv.test.com)
 
 <br>
 
-## Connecting G10-Dynamic GitHub Repository to Local Enviorment
+## Connecting G10-Dynamic GitHub Repository to Local Environment
 Follow the steps below to add the  G10-Dynamic GitHub theme repository to your Local WordPress.
 <br>
 
-1. Navigate to your Local WordPress root directory, from there navigate to the themes folder `/wp-content/themes/`
+1. Navigate to your Local WordPress root directory. From there navigate to the themes folder `/wp-content/themes/`
 
 2. In the themes folder, create a new folder and name it whatever you like
 
-3. While in the folder right click and choose "Git Bash Gere"
+3. While in the folder right click and choose "Git Bash Here"
 
 4. Git bash terminal will appear, then you can type in the following commands to pull the theme from our [Github repository](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-group10)
 
@@ -107,7 +107,7 @@ git commit -m "Your comment"
 git push -u origin G10-Dynamic
 ```
 
-For Quiries on the installation of G10-Dynamic Please refer to `Installation.md`
+For inquiries on the installation of G10-Dynamic, Please refer to `Installation.md`
 
 <br>
 
@@ -125,7 +125,7 @@ Branch Name | Description
 <br>
 
 ## Deployment & Web Hosting
-Both websites have SSH connection enabled, changes are depolyed via Git through command lines.<br>
+Both websites have SSH connections enabled. Changes are deployed via Git through command lines.<br>
 
 
 Web Address | Name
@@ -140,12 +140,12 @@ Project management is done based on [Scrum and XP from the Trenches -2nd Edition
 
 > [Trello board](https://trello.com/invite/b/sOGpE2zM/bf357bb64a6533dd8aebb13b321b3faf/content-managment-group-10) has been created to track the progress of the project stories, details of stories, scrum poker, task assignment, deadlines as well as any comments made by the team. 
 
-> [Miro Board](https://miro.com/welcomeonboard/djRTTEhtUUFVdmVrN29TdGRzWUtCYUd2NDJDWmg5NTdSYng5QUt2V3ZDNjVqd1BJTDRKUjJqRmIycUlmcURLT3wzMDc0NDU3MzUzNjQwNjA1Mjk4?invite_link_id=662373346887) has also been created to record our daily standup meetings, weekly retrospective as well as burndown/velocty charts.
+> [Miro Board](https://miro.com/welcomeonboard/djRTTEhtUUFVdmVrN29TdGRzWUtCYUd2NDJDWmg5NTdSYng5QUt2V3ZDNjVqd1BJTDRKUjJqRmIycUlmcURLT3wzMDc0NDU3MzUzNjQwNjA1Mjk4?invite_link_id=662373346887) has also been created to record our daily standup meetings, weekly retrospective, as well as burndown/velocity charts.
 
 >Project Management follows the following order:
 ```
 1. Sprint Planning 
-   - Plan on what to do the next sprint as well moving stories into produect backlog in Trello
+   - Plan on what to do the next sprint as well as moving stories into product backlog in Trello
    
 2. Daily Stand-Up 
    - Team memebers to be update to date on what each member has done, been working on and if they are facing any problems
