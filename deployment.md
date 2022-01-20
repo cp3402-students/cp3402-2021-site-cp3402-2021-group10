@@ -74,18 +74,30 @@ Follow the steps below to connect the G10-Dynamic GitHub theme repository to a s
 
 3. Open Git terminal
 
-4. Connect to your server via SSH with
+4. Connect to your server via SSH and Clone
 ```
 ssh username@server_domain.com
-```
-5. Clone the desired repo with
 
-```
 git remote add origin git@github.com:cp3402-students/cp3402-2021-site-cp3402-2021-group10.git
-cd public_html/wp-content/themes/G10-Dynamic
-eval `ssh-agent` && ssh-add ~/.ssh/RSA_My_GitHub
 ```
+5. To pull
 
+```
+cd public_html/wp-content/themes/G10-Dynamic
+
+eval `ssh-agent` && ssh-add ~/.ssh/RSA_My_GitHub
+
+git pull
+```
+Or to push
+
+```
+cd public_html/wp-content/themes/G10-Dynamic
+
+eval `ssh-agent` && ssh-add ~/.ssh/RSA_My_GitHub
+
+git pull
+```
 
 To push changes:
 
@@ -96,6 +108,7 @@ git commit -m "Your comment"
 
 git push -u origin G10-Dynamic
 ```
+
 For Quiries on the installation of G10-Dynamic Please refer to Installation.MD
 
 <br>
