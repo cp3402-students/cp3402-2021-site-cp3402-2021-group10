@@ -28,7 +28,12 @@ User Field | This field type is useful for creating relationships between data o
 
 <br>
 
-## Editing the CSS
+## Editing
+
+
+<br>
+
+### Editing the CSS
 If you wish to make changes to the theme CSS you can do so by editing the `/G10-Dynamic/style.css` file.
 
 <br>
@@ -43,4 +48,5 @@ For the rest of the pages, you can go to the `/G10-Dynamic/header-two.php` file 
 There is only 1 footer used for the G10-Dynamic theme
 you can go to the `/G10-Dynamic/footer.php` file and edit it with any IDE
 
-
+### Editing theme content
+All content are stored in the WordPress XML file, to edit it, simply edit the website via Dashbaord > Pages > Edit, then export the XML file. 
