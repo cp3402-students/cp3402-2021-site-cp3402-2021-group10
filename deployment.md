@@ -7,7 +7,7 @@ ___
 ## Required Softwares
 The following software is required for the theme development and deployment workflow.
 - [VVV](https://varyingvagrantvagrants.org/)
-- [Gith](https://git-scm.com/)
+- [Git](https://git-scm.com/)
 - [Vagrant](https://www.vagrantup.com/)
 - [Virtual Box](https://www.virtualbox.org/)
 
