@@ -2,20 +2,28 @@
 The following `deployment.md` file provides a brief description of the development and deployment workflow used by contributors of the Jazzy theme.
 
 ___
+
+<br>
+
 ## Required software
 The following software is required for the theme development and deployment workflow.
 - [VVV](https://varyingvagrantvagrants.org/)
-- [Gitbash](https://git-scm.com/)
+- [Gith](https://git-scm.com/)
 - [Vagrant](https://www.vagrantup.com/)
 - [Virtual Box](https://www.virtualbox.org/)
 
 ## Local development environment setup
 ### Installing Local (WordPress development tool)
-Follow the steps below to set up your local development environment on your Windows, Mac, or Linux operating system.<br>
+Follow the steps below to set up your local development environment on your Windows, Mac, or Linux operating system.
+<br>
+'''
 1.First up is to download and install VirtualBox which is the virtual machine.<br>
 2.Next download and install Vagrant.<br>
 3.Go to [VVV getting started page](https://varyingvagrantvagrants.org/docs/en-US/installation/) and follow the instructions to install VVV of your operating system.<br>
 4. Installation will take around 30minutesand you can access your [VVV site](https://vvv.test.com) after a green teddy bear appears at the end of installation.<br>
+'''
+
+<br>
 
 ### Adding G10 GitHub repository to local WordPress installation
 Follow the steps below to add the G10 GitHub theme repository to your WordPress theme folder.<br>
