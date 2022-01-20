@@ -11,10 +11,10 @@ Step 7: Under Site Identity, uncheck "Display Site Title and Tagline<br><br>
 <br>
 <br>
 Step 8: Go to your Dashboard > Pages > Add New Pages > Give the page any title you like <br><br>
-Step 9: On the right there is a Page Tab, go to Template section and choose the one you want to use then press Publish <br><br>
+Step 9: On the right, there is a Page Tab, go to the Template section and choose the one you want to use, then press Publish <br><br>
 
 
->Go to the page you just published and it will look exactly the same as our Live Site
+>Go to the page you just published, and it will look the same as our Live Site
 
 <br><br>
 # Installing G10-Dynamic
@@ -34,4 +34,4 @@ Step 12: Go to Dashboard > Appearance > Customize > Homepage Settings > Choose A
 Step 13: Under Homepage Settings > Under Homepage > Select Home from the Dropdownlist<br><br>				
 Step 13: Press Publish<br><br>				
 
->At this point everything should look exactly the same as our Live Site
+>At this point, everything should look the same as our Live Site
