@@ -35,7 +35,11 @@ Command | Sample Code
 **Change Directory to Desired Folder** | `cd public_html/wp-content/themes/G10-Dynamic`
 **Elevate Privilege** | `eval `ssh-agent` && ssh-add ~/.ssh/RSAKey`
 **Pull Update** | `git pull`
+<br>
 
+
+## Web Hosting
+Both websites have SSH connection enabled.<br>
 Web Address | Name
 ------------- | -------------
 **Production/Live website** | [https://g10staging.com/](https://g10staging.com/)
