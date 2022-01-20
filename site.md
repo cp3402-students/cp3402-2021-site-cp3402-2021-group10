@@ -10,12 +10,12 @@ The following plugins must be installed for the website to function as expected.
 Plugin Name | Plugin Description | Plugin Link
 --------|--------|--------
 **Advanced Custom Fields** | Content editing made easy. Use the Advanced Custom Fields plugin to take full control of your WordPress edit screens & custom field data. | [https://www.advancedcustomfields.com/](https://www.advancedcustomfields.com/)
-**Advanced Custom Fields Pro** | ACF PRO includes extra fields & features to better develop websites including PHP Blocks, Repeatable Fields, Page Building tools, Media Galleries and Custom Options Pages. | [https://www.advancedcustomfields.com/pro/](https://www.advancedcustomfields.com/pro/)
+**Advanced Custom Fields Pro** | ACF PRO includes extra fields & features to better develop websites, including PHP Blocks, Repeatable Fields, Page Building tools, Media Galleries and Custom Options Pages. | [https://www.advancedcustomfields.com/pro/](https://www.advancedcustomfields.com/pro/)
 <br>
 
 ## Changing Logo & Site Title
-1. In the WordPress admin panel select **Appearance > Customize > Site Identity** from the left navigation sidebar.
-2. Click **Select logo** and upload the logo you wish to use for the website, Title can be changed as well.
+1. In the WordPress admin panel, select **Appearance > Customize > Site Identity** from the left navigation sidebar.
+2. Click **Select logo** and upload the logo you wish to use for the website, the title can be changed as well.
 3. Click **Publish** to save and publish your changes.
 <br>
 
@@ -39,7 +39,7 @@ Command | Sample Code
 
 
 ## Web Hosting
-Both websites have SSH connection enabled.<br>
+Both websites have SSH connections enabled.<br>
 Web Address | Name
 ------------- | -------------
 **Production/Live website** | [https://g10staging.com/](https://g10staging.com/)
