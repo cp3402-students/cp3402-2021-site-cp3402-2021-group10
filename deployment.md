@@ -33,22 +33,39 @@ Follow the steps below to set up your local development environment on your Wind
 <br>
 
 ### Adding G10 GitHub repository to local WordPress installation
-Follow the steps below to add the G10 GitHub theme repository to your WordPress theme folder.<br>
-1. Open your file explorer and navigate to your Local WordPress root directory. From there navigate to the themes folder `/wp-content/themes/`.<br>
-2.In the themes folder, create a new folder and name it whatever you like.<br>
-3. Go inside the folder and then right click and choose git bash here<br>
-4. Git bash terminal will appear and then you can type in the following commands to pull the theme from our [Github repository](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-group10).<br>
-git init<br>
-git add .<br>
-git remote add origin https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-group10.git<br>
-git checkout -b G10-Dynamic<br>
-git pull origin G10-Dynamic<br><br>
+Follow the steps below to add the G10 GitHub theme repository to your WordPress theme folder.
+<br>
+```
+1. Open your file explorer and navigate to your Local WordPress root directory. From there navigate to the themes folder `/wp-content/themes/`.
+
+2.In the themes folder, create a new folder and name it whatever you like.
+
+3. Go inside the folder and then right click and choose git bash here.
+
+4. Git bash terminal will appear and then you can type in the following commands to pull the theme from our [Github repository](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-group10).
+
+git init
+
+git add .
+
+git remote add origin https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-group10.git
+
+git checkout -b G10-Dynamic
+
+git pull origin G10-Dynamic
+
 4. Open your WordPress admin panel and navigate to **Appearance > Themes**.
-5. Select the G10-Dynamic theme<br>
-6. After selecting the theme, verify that it is working properly by viewing the WordPress websites home page.<br>
+
+5. Select the G10-Dynamic theme
+
+6. After selecting the theme, verify that it is working properly by viewing the WordPress websites home page.
+```
+
+<br>
 
 ## Project management
 A [Trello board](https://trello.com/invite/b/sOGpE2zM/bf357bb64a6533dd8aebb13b321b3faf/content-managment-group-10) has been created to track the progress of several project actions. Use this Trello board to post details, actions and ideas. Move the cards around and assign them to contributors as needed.<br>
+<br>
 
 ## Version control
 GitHub is used to collaborate and track changes to the theme code. To begin working on a new feature, make a branch based on the staging branch. When the feature is complete merge that feature branch with the staging branch for testing. If testing passes, merge the staging branch with the main branch.<br>
