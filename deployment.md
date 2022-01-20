@@ -55,7 +55,7 @@ git checkout -b G10-Dynamic
 git pull origin G10-Dynamic
 
 
-**To push changes**
+To push changes:
 
 git add .
 
@@ -89,17 +89,7 @@ eval `ssh-agent` && ssh-add ~/.ssh/RSA_My_GitHub
 
 git pull
 ```
-Or to push
-
-```
-cd public_html/wp-content/themes/G10-Dynamic
-
-eval `ssh-agent` && ssh-add ~/.ssh/RSA_My_GitHub
-
-git pull
-```
-
-To push changes:
+6. To push
 
 ```
 git add .
@@ -109,7 +99,7 @@ git commit -m "Your comment"
 git push -u origin G10-Dynamic
 ```
 
-For Quiries on the installation of G10-Dynamic Please refer to Installation.MD
+For Quiries on the installation of G10-Dynamic Please refer to `Installation.md`
 
 <br>
 
