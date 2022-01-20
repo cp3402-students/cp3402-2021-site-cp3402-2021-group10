@@ -51,7 +51,7 @@ These plugins are included in the repo for G10-Dynamic Installation. G10-static 
 <!-- GETTING STARTED -->
 ## Getting Started 
 
-G10-Static takes < 5 Minutes to set up. <br>
+G10-Static takes less than 5 Minutes to set up. <br>
 [This version only requires basic access privileges such as Importing Theme and Add New Page.]
 
 <br>
