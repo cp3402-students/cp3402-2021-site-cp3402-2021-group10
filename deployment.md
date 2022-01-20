@@ -64,6 +64,36 @@ git commit -m "Your comment"
 git push -u origin G10-Dynamic
 ```
 
+### Connecting G10-Dynamic GitHub Repository to Server
+Follow the steps below to connect the G10-Dynamic GitHub theme repository to a server.
+<br>
+
+1. (Setup SSH Key on GitHub)[https://docs.github.com/en/enterprise-server@3.0/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account]
+
+2. Enable and Setup SSH connection on your server (BlueHost Setup Process)[https://www.bluehost.com/help/article/ssh-access] / (DreamHost Setup Process)[https://help.dreamhost.com/hc/en-us/articles/216041267-SSH-overview]
+
+3. Open Git terminal
+
+4. Connect to your server via SSH with
+```
+a
+```
+5. Clone the desired repo with
+
+```
+a
+```
+??? Git pull and stuff
+
+To push changes:
+
+```
+git add .
+
+git commit -m "Your comment"
+
+git push -u origin G10-Dynamic
+```
 For Quiries on the installation of G10-Dynamic Please refer to Installation.MD
 
 <br>
