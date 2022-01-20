@@ -90,7 +90,7 @@ git remote add origin git@github.com:cp3402-students/cp3402-2021-site-cp3402-202
 ```
 cd public_html/wp-content/themes/G10-Dynamic
 
-eval `ssh-agent` && ssh-add ~/.ssh/RSA_My_GitHub
+eval `ssh-agent` && ssh-add ~/.ssh/your_ssh_key
 
 git pull
 ```
