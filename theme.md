@@ -50,5 +50,5 @@ you can go to the `/G10-Dynamic/footer.php` file and edit it with any IDE
 <br>
 
 ### Editing theme content
-All content is stored in the WordPress XML file. Edit the website via **Dashboard > Pages > Edit**, then export the XML file. 
+All content is stored in the WordPress XML file. Edit the website via **Dashboard > Pages > Edit**, then export the XML file and import to desired site. 
 <br>
