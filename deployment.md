@@ -31,7 +31,6 @@ Follow the steps below to set up your local development environment on your Wind
 You can access your your VVV Site via this [URL](https://vvv.test.com)
 
 <br>
-<br>
 
 ### Adding G10 GitHub repository to local WordPress installation
 Follow the steps below to add the G10 GitHub theme repository to your WordPress theme folder.
