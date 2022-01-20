@@ -39,7 +39,7 @@ Follow the steps below to add the  G10-Dynamic GitHub theme repository to your L
 
 2. In the themes folder, create a new folder and name it whatever you like
 
-3. While in the folder right click and choose 'git bash here'
+3. While in the folder right click and choose "Git Bash Gere"
 
 4. Git bash terminal will appear, then you can type in the following commands to pull the theme from our [Github repository](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-group10)
 
@@ -53,14 +53,15 @@ git remote add origin https://github.com/cp3402-students/cp3402-2021-site-cp3402
 git checkout -b G10-Dynamic
 
 git pull origin G10-Dynamic
+
+```
+to push changes, simply:
+
+```
+a
 ```
 
-4. Open your WordPress admin panel and navigate to **Appearance > Themes**.
-
-5. Select the G10-Dynamic theme
-
-6. After selecting the theme, verify that it is working properly by viewing the WordPress websites home page.
-
+For Quiries on the installation of G10-Dynamic Please refer to Installation.MD
 
 <br>
 
