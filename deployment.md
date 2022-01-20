@@ -26,9 +26,9 @@ Follow the steps below to set up your local development environment on your Wind
 
 * [VVV](https://varyingvagrantvagrants.org/docs/en-US/installation/)
 
-
-Access your [VVV site](https://vvv.test.com)
-
+```
+You can access your your VVV Site via this [URL](https://vvv.test.com)
+```
 
 
 <br>
