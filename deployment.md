@@ -20,15 +20,16 @@ Follow the steps below to set up your local development environment on your Wind
 <br>
 
 
-* Download and install [VirtualBox](https://www.virtualbox.org/)
+* [VirtualBox](https://www.virtualbox.org/)
 
-* Download and install [Vagrant](https://www.vagrantup.com/docs/installation)
+* [Vagrant](https://www.vagrantup.com/docs/installation)
 
-* Download and install [VVV](https://varyingvagrantvagrants.org/docs/en-US/installation/)
+* [VVV](https://varyingvagrantvagrants.org/docs/en-US/installation/)
 
-* Access your [VVV site](https://vvv.test.com)
 
-```
+Access your [VVV site](https://vvv.test.com)
+
+
 
 <br>
 
