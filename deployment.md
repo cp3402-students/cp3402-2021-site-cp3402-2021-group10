@@ -53,10 +53,9 @@ git remote add origin https://github.com/cp3402-students/cp3402-2021-site-cp3402
 git checkout -b G10-Dynamic
 
 git pull origin G10-Dynamic
-```
+
 To push changes:
 
-```
 git add .
 
 git commit -m "Your comment"
