@@ -36,3 +36,7 @@ Command | Sample Code
 **Elevate Privilege** | `eval `ssh-agent` && ssh-add ~/.ssh/RSAKey`
 **Pull Update** | `git pull`
 
+Web Address | Name
+------------- | -------------
+**Production/Live website** | [https://g10staging.com/](https://g10staging.com/)
+**Staging website** | [https:/g10live.com/](https://g10live.com/)
