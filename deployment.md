@@ -103,25 +103,6 @@ For Quiries on the installation of G10-Dynamic Please refer to `Installation.md`
 
 <br>
 
-## Project Management
-Project management is done based on [Scrum and XP from the Trenches -2nd Edition](https://www.infoq.com/minibooks/scrum-xp-from-the-trenches-2/)
-
-A [Trello board](https://trello.com/invite/b/sOGpE2zM/bf357bb64a6533dd8aebb13b321b3faf/content-managment-group-10) has been created to track the progress of the project stories, details of stories, scrum poker, task assignment, deadlines as well as any comments made by the team. 
-<br>
-
-[Miro Board](https://miro.com/welcomeonboard/djRTTEhtUUFVdmVrN29TdGRzWUtCYUd2NDJDWmg5NTdSYng5QUt2V3ZDNjVqd1BJTDRKUjJqRmIycUlmcURLT3wzMDc0NDU3MzUzNjQwNjA1Mjk4?invite_link_id=662373346887) has also been created to record our daily standup meetings, weekly retrospective as well as burndown/velocty charts.
-
-Project Management follows the following order:
-1. Sprint Planning to plan on what to do the next sprint as well moving stories into produect backlog in Trello
-2. Daily Stand-Up to allow team memebers to be update to date on what each member has done, been working on and if they are facing any problems.
-3. Theme is developed locally via VVV
-4. Theme is updated to GitHub via Git
-5. Theme is tested on Staging Server
-6. Theme is uploaded to Live Server
-7. Trello Board is updated when the story is complete.
-
-
-
 ## Version control
 GitHub is used to collaborate and track changes to the theme code. To begin working on a new feature, make a branch. When the feature has been tested and is complete, merge that feature branch with the main branch.<br>
 
@@ -141,4 +122,20 @@ Web Address | Name
 ------------- | -------------
 **Production/Live website** | [https://g10staging.com/](https://g10staging.com/)
 **Staging website** | [https:/www.g10live.com/](https:/www.g10live.com/)
+## Project Management
+Project management is done based on [Scrum and XP from the Trenches -2nd Edition](https://www.infoq.com/minibooks/scrum-xp-from-the-trenches-2/)
+
+A [Trello board](https://trello.com/invite/b/sOGpE2zM/bf357bb64a6533dd8aebb13b321b3faf/content-managment-group-10) has been created to track the progress of the project stories, details of stories, scrum poker, task assignment, deadlines as well as any comments made by the team. 
+<br>
+
+[Miro Board](https://miro.com/welcomeonboard/djRTTEhtUUFVdmVrN29TdGRzWUtCYUd2NDJDWmg5NTdSYng5QUt2V3ZDNjVqd1BJTDRKUjJqRmIycUlmcURLT3wzMDc0NDU3MzUzNjQwNjA1Mjk4?invite_link_id=662373346887) has also been created to record our daily standup meetings, weekly retrospective as well as burndown/velocty charts.
+
+Project Management follows the following order:
+1. Sprint Planning to plan on what to do the next sprint as well moving stories into produect backlog in Trello
+2. Daily Stand-Up to allow team memebers to be update to date on what each member has done, been working on and if they are facing any problems.
+3. Theme is developed locally via VVV
+4. Theme is updated to GitHub via Git
+5. Theme is tested on Staging Server
+6. Theme is uploaded to Live Server
+7. Trello Board is updated when the story is complete.
 
