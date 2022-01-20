@@ -19,14 +19,14 @@ The following software is required for the theme development and deployment work
 Follow the steps below to set up your local development environment on your Windows, Mac, or Linux operating system.
 <br>
 
-```
-1. Download and install [VirtualBox](https://www.virtualbox.org/)
 
-2. Download and install [Vagrant](https://www.vagrantup.com/docs/installation)
+* Download and install [VirtualBox](https://www.virtualbox.org/)
 
-3. Download and install [VVV](https://varyingvagrantvagrants.org/docs/en-US/installation/)
+* Download and install [Vagrant](https://www.vagrantup.com/docs/installation)
 
-4. Access your [VVV site](https://vvv.test.com)
+* Download and install [VVV](https://varyingvagrantvagrants.org/docs/en-US/installation/)
+
+* Access your [VVV site](https://vvv.test.com)
 
 ```
 
