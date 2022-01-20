@@ -25,7 +25,7 @@ This project aims to make a Custom Theme that both beginners and veterans of Wor
 
 To meet our goals and expectation, we made two versions of our theme.
 
- The first version (G10-Static) can be easily installed simply by dragging and dropping our theme to the upload theme section of your WordPress page, and users can use static templates we have included in our theme to get their site up and running within seconds.
+ The first version (G10-Static) can be easily installed simply by dragging and dropping our theme to the upload theme section of your WordPress page, and users can use static templates we have included in our theme to get their site up and running within seconds, the only down side it that it is static and everything must be edited via source code.
 
  The second version (G10-Dynamic) requires a bit of knowledge in Database to get it up and run. The difference between this and the previous version is that this is dynamic, meaning all content can be edited via the WordPress Admin panel. The data will be saved in the XML file for you to export and use via the WordPress Export Feature.
  
