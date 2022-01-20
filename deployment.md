@@ -15,18 +15,18 @@ The following software is required for the theme development and deployment work
 <br>
 
 ## Local development environment setup
-### Installing Local (WordPress development tool)
+### Prerequisites
 Follow the steps below to set up your local development environment on your Windows, Mac, or Linux operating system.
 <br>
 
 ```
-1.First up is to download and install VirtualBox which is the virtual machine.<br>
+1. Download and install [VirtualBox](https://www.virtualbox.org/)
 
-2.Next download and install Vagrant.<br>
+2. Download and install [Vagrant](https://www.vagrantup.com/docs/installation)
 
-3.Go to [VVV getting started page](https://varyingvagrantvagrants.org/docs/en-US/installation/) and follow the instructions to install VVV of your operating system.<br>
+3. Download and install [VVV](https://varyingvagrantvagrants.org/docs/en-US/installation/)
 
-4. Installation will take around 30minutesand you can access your [VVV site](https://vvv.test.com) after a green teddy bear appears at the end of installation.<br>
+4. Access your [VVV site](https://vvv.test.com)
 
 ```
 
