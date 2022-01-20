@@ -1,11 +1,11 @@
 # Theme Deployment
-The following `deployment.md` file provides a brief description of the development and deployment workflow used by contributors of the Jazzy theme.
+The following `deployment.md` file provides a brief description of the development and deployment workflow used by contributors of the G10-Dynamic theme.
 
 ___
 
 <br>
 
-## Required SoftwareS
+## Required Softwares
 The following software is required for the theme development and deployment workflow.
 - [VVV](https://varyingvagrantvagrants.org/)
 - [Gith](https://git-scm.com/)
@@ -19,7 +19,6 @@ The following software is required for the theme development and deployment work
 Follow the steps below to set up your local development environment on your Windows, Mac, or Linux operating system.
 <br>
 
-
 * [VirtualBox](https://www.virtualbox.org/)
 
 * [Vagrant](https://www.vagrantup.com/docs/installation)
@@ -32,8 +31,8 @@ You can access your your VVV Site via this [URL](https://vvv.test.com)
 
 <br>
 
-### Adding G10 GitHub repository to local WordPress installation
-Follow the steps below to add the G10 GitHub theme repository to your WordPress theme folder.
+### Connecting G10-Dynamic GitHub Repository to Local Enviorment
+Follow the steps below to add the  G10-Dynamic GitHub theme repository to your Local WordPress.
 <br>
 
 1. Navigate to your Local WordPress root directory, from there navigate to the themes folder `/wp-content/themes/`
@@ -61,7 +60,7 @@ git pull origin G10-Dynamic
 5. Select the G10-Dynamic theme
 
 6. After selecting the theme, verify that it is working properly by viewing the WordPress websites home page.
-```
+
 
 <br>
 
