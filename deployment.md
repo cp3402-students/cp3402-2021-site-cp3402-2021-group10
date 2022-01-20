@@ -131,7 +131,7 @@ Both websites have SSH connection enabled, changes are depolyed via Git through 
 Web Address | Name
 ------------- | -------------
 **Production/Live website** | [https://g10staging.com/](https://g10staging.com/)
-**Staging website** | [https:/www.g10live.com/](https:/www.g10live.com/)
+**Staging website** | [https:/g10live.com/](https:/www.g10live.com/)
 
 <br>
 
